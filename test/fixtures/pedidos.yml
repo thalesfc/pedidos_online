@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  comprador: MyString
+  endereco: MyText
+  cidade: MyString
+  estado: MyString
+  cpf: MyString
+  rg: MyString
+  tel_residencial: MyString
+  cel: MyString
+  num_registro: MyString
+  certidao: MyString
+  processo: MyString
+  endereco_imovel: MyString
+  casa: MyString
+  valor_imovel: MyString
+  valor_entrada: MyString
+  valor_financiado: MyString
+
+two:
+  comprador: MyString
+  endereco: MyText
+  cidade: MyString
+  estado: MyString
+  cpf: MyString
+  rg: MyString
+  tel_residencial: MyString
+  cel: MyString
+  num_registro: MyString
+  certidao: MyString
+  processo: MyString
+  endereco_imovel: MyString
+  casa: MyString
+  valor_imovel: MyString
+  valor_entrada: MyString
+  valor_financiado: MyString

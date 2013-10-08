@@ -1,0 +1,28 @@
+%h1 Listing pedidos
+%table.table.table-striped.table-hover
+  %thead
+    %tr
+      %th Comprador
+      %th Rg
+      %th Tel residencial
+      %th Cel
+      %th Num registro
+      %th Casa
+      %th Valor imovel
+      %th
+      %th
+      %th
+  %tbody
+    - @pedidos.each do |pedido|
+      %tr
+        %td= pedido.comprador
+        %td= pedido.rg
+        %td= pedido.tel_residencial
+        %td= pedido.cel
+        %td= pedido.num_registro
+        %td= pedido.casa
+        %td= pedido.valor_imovel
+        %td.btn.btn-primary= link_to "Download PDF", pedido_path(pedido.id, :format => 'pdf'), :target => 'blank' 
+        %td.btn.btn-warning= link_to 'Edit', edit_pedido_path(pedido)
+        %td.btn.btn-danger= link_to 'Destroy', pedido, method: :delete, data: { confirm: 'Are you     sure?' }
+%br
