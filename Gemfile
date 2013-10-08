@@ -10,8 +10,8 @@ gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'html2haml'
-gem 'prawn'
-gem 'prawn-rails'
+gem 'prawn', '0.12.0'
+gem 'prawn-rails', '0.0.11'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
