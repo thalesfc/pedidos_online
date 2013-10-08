@@ -1,3 +1,4 @@
+prawn_document() do |pdf|
 # Add the font style and size
 pdf.font "Helvetica"
 
@@ -74,3 +75,5 @@ pdf.text "Sarzedo #{Date.today}", :size => 14
 pdf.move_down 20
 pdf.text "PEDIDO DE PRETENÇÃO DE COMPRA", :size => 20, :style => :bold, :align => :center
 pdf.stroke_horizontal_rule
+
+end
